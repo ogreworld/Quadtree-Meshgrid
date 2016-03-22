@@ -1,0 +1,36 @@
+typedef struct Elem  //单元信息
+{
+	int i;  //单元属性,1为叶子
+	int j;  //单元在叶子数组中的位置
+	int k;  //单元等级
+	int p;  //单元在剖分域中的位置，0为边界，1为外部，2为内部
+	int mark;  //单元标记
+	int Neighbour[8];  //相邻单元编号
+	Node Nodes[2];  //单元顶点编号（左上与右下）
+	double x,y;  //中心点坐标
+	int father;  //父单元编号
+	int son[4];  //子单元编号
+}Elem;
+
+
+typedef struct Region  //剖分域信息
+{
+	int n;  //点的总数
+	int m;  //边的总数
+	Node *nodes;  //点的坐标
+	int **sides;  //边对应的顶点编号
+	int *outside;  //外边界信息
+	int osn;  //外边界边总数
+	int **inside;  //内边界信息
+	int isn;  //内边界总数
+	int *ise;  //内边界边信息
+}Region;
+
+vector<int> leafs;  //叶子单元编号
+int NodesNum;  //当前点的总数
+int SidesNum;  //当前边的总数
+int ElemsNum;  //当前单元总数
+
+vector<Elem> Elems;
+vector<Node> Nodes;
+Region Region;

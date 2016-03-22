@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Quadtree_Libo", "Quadtree_Libo\Quadtree_Libo.vcproj", "{745938A5-80F5-4E21-B154-89358A0F5FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{745938A5-80F5-4E21-B154-89358A0F5FE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{745938A5-80F5-4E21-B154-89358A0F5FE3}.Debug|Win32.Build.0 = Debug|Win32
+		{745938A5-80F5-4E21-B154-89358A0F5FE3}.Release|Win32.ActiveCfg = Release|Win32
+		{745938A5-80F5-4E21-B154-89358A0F5FE3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
